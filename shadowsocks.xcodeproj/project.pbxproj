@@ -1078,7 +1078,7 @@
 				ORGANIZATIONNAME = clowwindy;
 				TargetAttributes = {
 					621571A416CF6BCB003D96B4 = {
-						DevelopmentTeam = DNWTL6F8P3;
+						DevelopmentTeam = F9V4S22NA7;
 					};
 				};
 			};
@@ -1580,8 +1580,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F9V4S22NA7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1599,10 +1598,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/OpenSSL-for-iPhone/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = BinssShadowsocks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adups.shadowshare;
 				PRODUCT_NAME = shadowsocks;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "69393c93-f667-4b7e-a182-1517da8fbe9a";
+				PROVISIONING_PROFILE_SPECIFIER = ShadowShareContrl_dev;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1615,8 +1614,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEVELOPMENT_TEAM = F9V4S22NA7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -1634,9 +1633,10 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/OpenSSL-for-iPhone/lib\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = BinssShadowsocks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adups.shadowshare;
 				PRODUCT_NAME = shadowsocks;
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "839fe929-c841-4628-858a-d030747c0ce3";
+				PROVISIONING_PROFILE_SPECIFIER = ShadowShareContrl_dis;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
